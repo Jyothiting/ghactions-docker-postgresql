@@ -6,7 +6,7 @@ const [data,setData] = useState("");
 
 useEffect(()=>{
 
-fetch("http://EC2_PUBLIC_IP:8000")
+fetch("http://13.126.22.248:8000")
 .then(res=>res.json())
 .then(data=>setData(data.message))
 

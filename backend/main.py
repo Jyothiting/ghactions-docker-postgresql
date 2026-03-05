@@ -7,7 +7,7 @@ conn = psycopg2.connect(
     database="myappdb",
     user="myuser",
     password="mypassword",
-    host="EC2_PUBLIC_IP",
+    host="13.126.22.248",
     port="5432"
 )
 
